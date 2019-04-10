@@ -1,0 +1,5 @@
+config.json
+uploads/*
+/example_images/
+/node_modules/
+package-lock.json

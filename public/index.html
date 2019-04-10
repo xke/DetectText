@@ -1,0 +1,72 @@
+<html>
+	<head>
+	</head>
+<body>
+
+	<form action="/api/detecttext" method="post" enctype="multipart/form-data">
+		<h3>Detect Text from Image</h3>
+
+		<input type="hidden" name="source" value="web">
+		<input type="file" accept="image/*;capture=camera" name="image" id="image">
+		<br><br>
+		Which detection engine do you want to use? 
+		<br><br>
+	  <div>
+
+	    <input type="radio" id="engine" name="engine" value="amazon">
+	    <label for="amazon">Amazon</label>
+	    &nbsp;&nbsp;
+
+	    <input type="radio" id="engine" name="engine" value="google">
+	    <label for="google">Google</label>
+	    &nbsp;&nbsp;
+
+	    <input type="radio" id="engine" name="engine" value="microsoft">
+	    <label for="microsoft">Microsoft</label>
+	    &nbsp;&nbsp;
+
+	    <input type="radio" id="engine" name="engine" value="all" checked>
+	    <label for="all">ALL</label>
+	    &nbsp;&nbsp;
+
+	  </div>
+		<br>
+		<input type="submit">
+	</form>
+	
+<!--
+	<form action="/api/recognize" method="post" enctype="multipart/form-data">
+		<h3>Detect Faces</h3>
+		<input type="file" accept="image/*;capture=camera" name="image" id="image">
+		<br>
+		<br>
+		<input type="submit">
+	</form>
+
+	<form action="/api/detectlables" method="post" enctype="multipart/form-data">
+		<h3>Detect Labels</h3>
+		<input type="file" accept="image/*;capture=camera" name="image" id="image">
+		<br>
+		<br>
+		<input type="submit">
+	</form>
+	
+
+	<form action="/api/detectceleb" method="post" enctype="multipart/form-data">
+		<h3>Celebrity detection</h3>
+		<input type="file" accept="image/*;capture=camera" name="image" id="image">
+		<br>
+		<br>
+		<input type="submit">
+	</form>
+	
+	<form action="/api/comparefaces" method="post" enctype="multipart/form-data">
+		<h3>Compare Faces</h3>
+		<input type="file"  name="image" id="image" multiple='multiple'>
+		<br>
+		<br>
+		<input type="submit">
+	</form>
+	-->
+</body>
+</html>

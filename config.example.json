@@ -1,0 +1,10 @@
+{
+  "googleKey": "[Fill In]",
+  "microsoftKey": "[Fill In]",
+  "amazonAccessKeyId": "[Fill In]",
+  "amazonSecretAccessKey": "[Fill In]",
+  "amazonWriteOnlyBucketName": "your-s3-bucket-write-only",
+  "emailSubjectPrompt": "Detect Text:",
+  "emailToAddress": "your-email@your-email.com",
+  "emailFromAddress": "Detect Text <app-email@app-email.com>"
+}
