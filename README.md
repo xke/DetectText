@@ -2,6 +2,8 @@
 
 Connect with 3 Cloud providers for detecting text from images. Choose the best default provider based on your use cases. 
 
+Most of the source code is contained within this file: https://github.com/xke/DetectText/blob/master/index.js.
+
 Fully using this code requires having accounts for Amazon Web Services, Google Cloud Platform, and Microsoft Azure. It also requires having access keys for Google Cloud Vision, Azure Computer Vision, and AWS Rekognition on the corresponding platforms. In this example, additional features for image archiving and email sending are implemented with AWS S3 and SES. The Amazon access keys must have permission to write to an S3 bucket of your choosing, and to send email via SES. 
 
 **To try it on your machine:**
@@ -11,4 +13,4 @@ Fully using this code requires having accounts for Amazon Web Services, Google C
 * `npm start`
 * Go to `http://localhost:5555` and upload an image
 
-
+You can also watch a demo and code walkthrough within this ~1 hour video course: http://bit.ly/xianke-linkedin-learning.
